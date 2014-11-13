@@ -13,6 +13,7 @@
 		1C2E6BD31A145D210084CD59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E6BD21A145D210084CD59 /* Images.xcassets */; };
 		1C2E6BD61A145D210084CD59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E6BD41A145D210084CD59 /* Main.storyboard */; };
 		1C2E6BE21A145D210084CD59 /* pcsctest3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E6BE11A145D210084CD59 /* pcsctest3Tests.m */; };
+		1CE09EC61A1467D600010354 /* PCSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE09EC51A1467D600010354 /* PCSC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		1C2E6BDB1A145D210084CD59 /* pcsctest3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pcsctest3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2E6BE01A145D210084CD59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C2E6BE11A145D210084CD59 /* pcsctest3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pcsctest3Tests.m; sourceTree = "<group>"; };
+		1CE09EC51A1467D600010354 /* PCSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PCSC.framework; path = System/Library/Frameworks/PCSC.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE09EC61A1467D600010354 /* PCSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		1C2E6BBC1A145D210084CD59 = {
 			isa = PBXGroup;
 			children = (
+				1CE09EC51A1467D600010354 /* PCSC.framework */,
 				1C2E6BC71A145D210084CD59 /* pcsctest3 */,
 				1C2E6BDE1A145D210084CD59 /* pcsctest3Tests */,
 				1C2E6BC61A145D210084CD59 /* Products */,
@@ -404,6 +408,7 @@
 				1C2E6BE71A145D210084CD59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C2E6BE81A145D210084CD59 /* Build configuration list for PBXNativeTarget "pcsctest3Tests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +417,7 @@
 				1C2E6BEA1A145D210084CD59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
